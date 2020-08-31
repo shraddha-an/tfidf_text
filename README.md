@@ -6,6 +6,26 @@ NLP Project where I build a TF-IDF matrix to classify the sentiment of user revi
 
 Term Frequency-Inverse Document Frequency (TF-IDF) determines how important a word is by weighing its frequency of occurence in the document and computing how often the same word occurs in other documents. If a word occurs many times in a particular document but not in others, then it might be highly relevant to that particular document and is therefore assigned more importance.
 
+## Word Clouds
+
+I built word clouds out of the most commonly appearing words from each of the 3 datasets, as well as the combined one.
+
+#### 1) Entire Dataset -
+
+![Dataset Word Cloud](https://github.com/shraddha-an/tfidf_text/blob/master/dataset_wc.png)
+
+#### 2) Amazon Word Cloud -
+
+![Amazon Word Cloud](https://github.com/shraddha-an/tfidf_text/blob/master/amazon_wc.png)
+
+#### 3) IMDB Word Cloud - 
+
+![IMDB Word Cloud](https://github.com/shraddha-an/tfidf_text/blob/master/imdb_wc.png)
+
+#### 4) Yelp Word Cloud - 
+
+![Yelp Word Cloud](https://github.com/shraddha-an/tfidf_text/blob/master/yelp_wc.png)
+
 ## Dataset
 
 Download the dataset from here: https://archive.ics.uci.edu/ml/datasets/Sentiment+Labelled+Sentences
